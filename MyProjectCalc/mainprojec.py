@@ -14,9 +14,9 @@ while True:
     choice = input('Выберите действие от 1 - го до 5-ти : ').strip()
 
     if choice == "1":
-        name = input("Введите Имя: ").title()
-        surname = input('Введите фамилию: ').title()
-        age = int(input('Введите возраст: '))
+        name = input("\033[35mВведите Имя:\033[0m ").title()
+        surname = input('\033[35mВведите фамилию:\033[0m ').title()
+        age = int(input('\033[35mВведите возраст:\033[0m '))
 
         if name == "" or  surname == "" or age <5 or age >100:
             print("Заполните поля верно!")
