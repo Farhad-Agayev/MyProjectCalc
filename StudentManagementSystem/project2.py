@@ -19,3 +19,5 @@ while True:
         name = input("Введите имя студенка: ")
         surname = input("Введите фамилию студенка: ")
         age = int(input('Введите возраст студента: '))
+
+        print('hello')
