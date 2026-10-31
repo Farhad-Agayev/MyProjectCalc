@@ -210,7 +210,7 @@ btn_equal = Button(frame5,
                font = ("Comic Sans MS",15),
                width = 5,
                height = 2,
-               bg = "grey")
+               bg = "white")
 
 btn_equal.pack(side = "left", padx=0)
 
